@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "Canasta Basica",
+        "image": "https://i.pinimg.com/originals/f4/87/7c/f4877c8745432eac981e82771a045fda.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Pan",
+        "image": "https://i.ibb.co/Rv35vZq/Pan.png"
+    },
+    {
+        "id": 3,
+        "title": "Vegetales",
+        "image": "https://i.ibb.co/PrKTCJ4/Vegetales.png"
+    },
+    {
+        "id": 4,
+        "title": "Carnes",
+        "image": "https://i.ibb.co/WkXFMxN/Carnes.png"
+    },
+    {
+        "id": 5,
+        "title": "Granos",
+        "image": "https://i.ibb.co/Tc8jjyM/Granos.png"
+    },
+    {
+        "id": 6,
+        "title": "Lacteos",
+        "image": "https://i.ibb.co/Jp4cMqg/Lacteos.png"
+    },
+    {
+        "id": 7,
+        "title": "Embutidos",
+        "image": "https://i.ibb.co/fHnpXFy/Embutidos.png"
+    },
+    {
+        "id": 8,
+        "title": "Otros",
+        "image": "https://th.bing.com/th/id/R.6a26d29bf5b52598b6dc560086ba07c7?rik=KAGOlYfpSWVzDg&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 9,
+        "title": "Navidad",
+        "image": "https://i.ibb.co/DLpLh9z/navidad.png"
+    },
+    {
+        "id": 10,
+        "title": "Juguetes",
+        "image": "https://i.ibb.co/xgXp0Qn/Juguetes.png"
+    }
+]
