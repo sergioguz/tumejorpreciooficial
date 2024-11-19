@@ -13,9 +13,11 @@ import MainNavigator from './src/navigation/MainNavigator';
 import { View, StyleSheet } from 'react-native';
 
 
-import { createSessionsTable } from './src/db';
+import { createSessionsTable,resetSessionsTable } from './src/db';
 
 //import './src/db/testSQLite';
+
+//resetSessionsTable();
 
 createSessionsTable()
   .then((result)=>console.log("Tabla creada o inicializada con éxito: ", result))

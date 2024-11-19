@@ -9,10 +9,16 @@ import { useDispatch, useSelector } from 'react-redux'
 import { usePostReceiptMutation } from '../services/receiptsService'
 import { removeItem,clearCart } from '../features/cart/cartSlice'
 
+
 const CartScreen = ({navigation}) => {
 
     const cart = useSelector(state=>state.cartReducer.value.cartItems)
     const total = useSelector(state=>state.cartReducer.value.total)
+    const userId = useSelector(state =>state.authReducer.value.userId);
+    
+
+     
+
     const [triggerPost, result] = usePostReceiptMutation()
 
     const cartLength = useSelector(state=>state.cartReducer.value.cartLenght)
@@ -25,7 +31,9 @@ const CartScreen = ({navigation}) => {
         <View style={styles.footerContainer}>
             <Text style={styles.footerTotal}>Total: $ {total} </Text>
             <Pressable style={styles.confirmButton} onPress={()=>{
-                triggerPost({cart,total,createdAt: Date.now()})
+
+                triggerPost({cart,total,createdAt: Date.now(),userId})
+                
                 dispatch(clearCart())
                 navigation.navigate("Receipts")
             }} >

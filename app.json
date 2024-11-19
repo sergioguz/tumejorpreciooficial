@@ -16,7 +16,12 @@
         "NSCameraUsageDescription": "This app needs access to your camera to take profile pictures."
       },
       "jsEngine": "hermes",
-      "icon": "./assets/icon.png"
+      "icon": "./assets/icon.png",
+      "config" : {
+        "googleMaps" : {
+          "apiKey" : "AIzaSyCGebLHvEfTtKdAg0vYXxxPHXodxX42Q98"
+        }
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -24,7 +29,13 @@
         "backgroundColor": "#ffffff"
       },
       "jsEngine": "hermes",
-      "icon": "./assets/icon.png"
+      "icon": "./assets/icon.png",
+      "package": "com.sguzmansg.tumejorprecio",
+      "config" : {
+        "googleMaps" : {
+          "apiKey" : "AIzaSyCGebLHvEfTtKdAg0vYXxxPHXodxX42Q98"
+        }
+      }
     },
     "plugins": [
       "expo-font"
@@ -36,6 +47,7 @@
       "eas": {
         "projectId": "753da97b-b612-4c85-a9fa-d6f81124c2bf"
       }
-    }
+    },
+    "owner": "sguzmansg"
   }
 }
