@@ -169,7 +169,9 @@ Listado de dependencias clave utilizadas en el proyecto:
 
 ## **APK**
 
-En el archivo de extensión .apk application-54134e70-01c0-48c3-b9bf-fa3799a1be1f se encuentra esta app compilada con ExpoDev
+En el archivo de extensión .apk application-54134e70-01c0-48c3-b9bf-fa3799a1be1f se encuentra esta app compilada con ExpoDev.
+
+https://drive.google.com/file/d/1cxZ6DXHeheGiOHWCgoobOH20Zrs2s-aG/view?usp=sharing
 
 
 ---
