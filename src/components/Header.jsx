@@ -15,7 +15,7 @@ const Header = ({subtitle}) => {
   const onLogout = ()=>{
     dispatch(clearUser())
     clearSessions()
-      .then(()=>console.log("Sesión eliminada"))
+      //.then(()=>console.log("Sesión eliminada"))
       .catch((error)=>console.log("Error al eliminar la sesión"))
   }
 

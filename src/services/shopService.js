@@ -14,7 +14,7 @@ export const shopApi = createApi({
         getProductsByCategory: builder.query({
             query: (category)=>{
                 //category = category.toLowerCase()
-                console.log("categorydegetProducts",category)
+                //console.log("categorydegetProducts",category)
                 return(
                 `products.json?orderBy="category"&equalTo="${category}"` //Strings literal
             )},

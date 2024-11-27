@@ -20,7 +20,7 @@ import { createSessionsTable,resetSessionsTable } from './src/db';
 //resetSessionsTable();
 
 createSessionsTable()
-  .then((result)=>console.log("Tabla creada o inicializada con éxito: ", result))
+  //.then((result)=>console.log("Tabla creada o inicializada con éxito: ", result))
   .catch((error)=>console.log("Error al crear la tabla Sessions: ", error))
 
   

@@ -34,10 +34,10 @@ const LoginScreen = ({navigation}) => {
         //result?.isSuccess
         //console.log("Remember me: ", rememberMe)
         if (result.isSuccess) {
-          console.log("Usuario logueado con éxito")
+          //console.log("Usuario logueado con éxito")
           const { email, localId, idToken } = result.data;
 
-          console.log("Datos de la sesión antes de insertar:", { email, userId: localId, token: idToken });
+          //console.log("Datos de la sesión antes de insertar:", { email, userId: localId, token: idToken });
 
           //console.log(result.data)
           dispatch(setUser({ email, userId: localId, token: idToken }));;
@@ -45,13 +45,13 @@ const LoginScreen = ({navigation}) => {
           
           if (rememberMe) {
             clearSessions().then(() => console.log("sesiones eliminadas")).catch(error => console.log("Error al eliminar las sesiones: ", error))
-            console.log("result data:", result.data)
+            //console.log("result data:", result.data)
             insertSession({
                 email,
                 userId: localId,    
                 token: idToken
             })
-              .then(res => console.log("Usuario insertado con éxito",res))
+              //.then(res => console.log("Usuario insertado con éxito",res))
               .catch(error => console.log("Error al insertar usuario",error))
           }
     

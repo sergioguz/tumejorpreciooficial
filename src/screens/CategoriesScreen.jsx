@@ -31,7 +31,7 @@ const CategoriesScreen = ({ navigation }) => {
     },
         [width, height])
 
-    console.log(isPortrait)
+    //console.log(isPortrait)
 
     const renderCategoryItem = ({ item, index }) => {
         return (

@@ -17,7 +17,7 @@ const ProductsScreen = ({ navigation, route }) => {
     //const productsFilteredByCategory = useSelector(state=>state.shopReducer.value.productsFilteredByCategory)
 
     const category = useSelector(state => state.shopReducer.value.categorySelected)
-    console.log("Category:", category)
+    //console.log("Category:", category)
 
     const { data: productsFilteredByCategory, error, isLoading } = useGetProductsByCategoryQuery(category)
     //console.log("productsFilteredByCategory:", productsFilteredByCategory)
